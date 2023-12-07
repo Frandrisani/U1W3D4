@@ -1,0 +1,10 @@
+#spazioNumeri {
+  background-color: #637e76;
+}
+.cellaNumeroStyle {
+  background-color: #c69774;
+  display: inline-block;
+  margin: 1em;
+  padding: 2em;
+  border-radius: 20px;
+}
