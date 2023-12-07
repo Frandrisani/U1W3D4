@@ -9,14 +9,22 @@
   <body>
     <main>
       <div>
-        <h1>Tombola time!</h1>
-        <p>Prova a vincere!</p>
+        <div id="titolo">
+          <h1>Tombola time!</h1>
+          <p>Prova a vincere!</p>
+        </div>
       </div>
+
       <div id="spazioNumeri">
         <!-- le celle deinumeri verranno generate via JS e posizionate qui -->
       </div>
       <div id="spazioGeneraNumero">
         <button id="pulsanteGeneraNumero">Estrai numero</button>
+        <div>
+          <p id="frase">
+            Il numero generato è:<span id="numerogenerato"></span>
+          </p>
+        </div>
         <!-- qui si deve aggiungere uno spazio dove  ci esce l'ultimo numero generato-->
       </div>
     </main>

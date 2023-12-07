@@ -2,18 +2,85 @@
 
 html {
   font-family: "Work Sans", sans-serif;
+  background-color: #ec8f5e;
 }
 
+#titolo {
+  background-color: #9fbb73;
+  display: inline-block;
+  padding: 1em 2em;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+}
+
+#titolo h1,
+p {
+  color: rgb(255, 255, 255);
+  text-shadow: 3px -1px 4px rgba(58, 0, 0, 0.82);
+}
+
+#titolo h1 {
+  font-size: 2em;
+  margin: 0;
+}
+#titolo p {
+  font-size: 1.5em;
+  margin: 0.5em;
+}
 #spazioNumeri {
-  background-color: #637e76;
-  width: 60%;
+  background-color: #9fbb73;
+  width: 80%;
   border-radius: 20px;
-  margin: 2em auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
 .cellaNumeroStyle {
-  background-color: #c69774;
+  background-color: #f3b664;
   display: inline-block;
+  height: 1rem;
+  width: 1rem;
   margin: 1em;
   padding: 2em;
-  border-radius: 20px;
+  border-radius: 3rem;
+  box-shadow: 20px 14px 30px 19px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 1em auto;
+}
+
+#pulsanteGeneraNumero {
+  background-color: #9fbb73;
+  border-radius: 23px;
+  border: 2px solid #f1eb90;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 17px 54px;
+  text-decoration: none;
+}
+#pulsanteGeneraNumero:hover {
+  background-color: #9fbb73;
+}
+#pulsanteGeneraNumero:active {
+  position: absolute;
+  text-align: center;
+  top: 1px;
+}
+.estratta {
+  background-color: #ec8f5e;
+  color: beige;
+}
+
+#frase {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#numerogenerato {
+  font-size: 1.5em;
 }
