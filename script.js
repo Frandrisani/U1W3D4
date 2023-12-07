@@ -17,8 +17,6 @@ const tombola = function () {
     document
       .getElementById("spazioGeneraNumero")
       .appendChild(mostraNumeroGeneratoInHtml);
-
-    //   if(i+1 === numeroGenerato){}
   };
 
   //ora generiamo i numeri con il pulsante; ogni qual volta si clicca il pulsante si genera un numero casuale richiamando la funzione generatoreDiNumeri()
